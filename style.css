@@ -1,0 +1,26 @@
+h1 {
+    margin-left: 20%;
+}
+p {
+    margin-left: 10%;
+    text-align: justify;
+    width: 40%;
+}
+
+.roboto {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.orbitron {
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+.shizuru {
+    font-family: 'Shizuru', cursive;
+}
+
+body {
+    background-color: grey;
+    color: aliceblue;
+}
