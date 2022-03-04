@@ -57,3 +57,17 @@ if (numberResult >= 50 && numberResult <= 80) {
     alert("80")
 }
 
+// sixth exercise
+
+// seventh exercise
+
+function rotate_elements_left(array)
+{
+    return [array[1], array[2], array[0]];
+}
+
+
+
+// Lab 2
+// Exercise 1
+
