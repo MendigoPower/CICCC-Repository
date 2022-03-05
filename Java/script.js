@@ -1,3 +1,5 @@
+/* 
+
 // First exercise
 
 
@@ -64,10 +66,46 @@ if (numberResult >= 50 && numberResult <= 80) {
 function rotate_elements_left(array)
 {
     return [array[1], array[2], array[0]];
-}
+} 
+
+*/
 
 
 
 // Lab 2
 // Exercise 1
 
+let meal = [ 
+    {name: 'Pizza', price: 14, popularity: 'High'},
+    {name: 'Hamburguer', price: 8, popularity: 'High'},
+    {name: 'Coxinha', price: 4, popularity: 'Low'},
+    {name: 'Pastel', price: 3, popularity: 'Low'},
+    {name: 'Pudim', price: 7, popularity: 'Medium'}
+]
+  
+  function generateTableHead(table, data) {
+    let thead = table.createTHead();
+    let row = thead.insertRow();
+    for (let key of data) {
+      let th = document.createElement("th");
+      let text = document.createTextNode(key);
+      th.appendChild(text);
+      row.appendChild(th);
+    }
+  }
+  
+  function generateTable(table, data) {
+    for (let element of data) {
+      let row = table.insertRow();
+      for (key in element) {
+        let cell = row.insertCell();
+        let text = document.createTextNode(element[key]);
+        cell.appendChild(text);
+      }
+    }
+  }
+  
+  let table = document.querySelector("table");
+  let data = Object.keys(meal[0]);
+  generateTableHead(table, data);
+  generateTable(table, meal);

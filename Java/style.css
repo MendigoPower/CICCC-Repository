@@ -1,0 +1,23 @@
+body {
+    padding: 0 2em;
+    background: #fff
+  }
+
+.table {
+    margin: 1em 0;
+    min-width: 300px;
+    background: #34495E;
+    color: #fff;
+    border-radius: .4em;
+}
+
+tr {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-color: lighten(#34495E, 10%);
+}
+      
+th {
+    display: none; 
+}
+
