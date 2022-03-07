@@ -75,7 +75,7 @@ function rotate_elements_left(array)
 // Lab 2
 // Exercise 1
 
-let meal = [ 
+/* let meal = [ 
     {name: 'Pizza', price: 14, popularity: 'High'},
     {name: 'Hamburguer', price: 8, popularity: 'High'},
     {name: 'Coxinha', price: 4, popularity: 'Low'},
@@ -108,4 +108,13 @@ let meal = [
   let table = document.querySelector("table");
   let data = Object.keys(meal[0]);
   generateTableHead(table, data);
-  generateTable(table, meal);
+  generateTable(table, meal); */
+
+
+  const str = prompt("What is your name?")
+
+  function WordCount(str) { 
+    return str.split(" ").length;
+  }
+  
+  console.log(WordCount(WordCount));
