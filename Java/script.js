@@ -75,7 +75,7 @@ function rotate_elements_left(array)
 // Lab 2
 // Exercise 1
 
-let meal = [ 
+/* let meal = [ 
     {name: 'Pizza', price: 14, popularity: 'High'},
     {name: 'Hamburguer', price: 8, popularity: 'High'},
     {name: 'Coxinha', price: 4, popularity: 'Low'},
@@ -108,4 +108,14 @@ let meal = [
   let table = document.querySelector("table");
   let data = Object.keys(meal[0]);
   generateTableHead(table, data);
-  generateTable(table, meal);
+  generateTable(table, meal); */
+
+
+  function contar() {
+    var texto = document.ex01.campo.value;
+    var quantVet = texto.split(' ').length;
+
+    document.getElementById('alvo').innerHTML = quantVet;
+}
+console.log()
+</script>

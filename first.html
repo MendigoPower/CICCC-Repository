@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200&family=Saira+Semi+Condensed:wght@100&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200&family=Saira+Semi+Condensed:wght@100&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Shizuru&display=swap" rel="stylesheet">
@@ -20,20 +21,14 @@
 </head>
 
 <body>
-    <div class="hero">
-        <h1>Gabriel Soares</h1>
-        <p class="roboto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aperiam, nostrum accusantium nesciunt
-            temporibus possimus cumque blanditiis distinctio non deleniti adipisci atque sit a minus illo aliquam sed,
-            corrupti esse! Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> <br>
-        <p class="orbitron">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aperiam, nostrum accusantium nesciunt
-            temporibus possimus cumque blanditiis distinctio non deleniti adipisci atque sit a minus illo aliquam sed,
-            corrupti esse! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, nobis aspernatur, obcaecati,
-            impedit minus </p><br>
-        <p class="shizuru">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aperiam, nostrum accusantium nesciunt
-            temporibus possimus cumque blanditiis distinctio non deleniti adipisci atque sit a minus illo aliquam sed,
-            corrupti esse! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, nobis aspernatur, obcaecati,
-            impedit </p>
-    </div>
+    <script>
+        function contar() {
+            var texto = document.ex01.campo.value;
+            var quantVet = texto.split(' ').length;
+
+            document.getElementById('alvo').innerHTML = quantVet;
+        }
+    </script>
 </body>
 
 </html>
