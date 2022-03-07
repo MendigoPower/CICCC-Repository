@@ -111,10 +111,11 @@ function rotate_elements_left(array)
   generateTable(table, meal); */
 
 
-  const str = prompt("What is your name?")
+  function contar() {
+    var texto = document.ex01.campo.value;
+    var quantVet = texto.split(' ').length;
 
-  function WordCount(str) { 
-    return str.split(" ").length;
-  }
-  
-  console.log(WordCount(WordCount));
+    document.getElementById('alvo').innerHTML = quantVet;
+}
+console.log()
+</script>
