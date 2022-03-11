@@ -1,0 +1,38 @@
+.button-content {
+width: 40%;
+margin: 50px auto;
+font-size: 17px;
+line-height: 1.9;
+text-align: justify;
+}
+.button-content h1 {
+margin-bottom: -10px;
+color: black;
+line-height: 1.5;
+font-size: 57px;
+  }
+.button-content h3 {
+font-style: italic;
+color: #FF9800;
+}
+
+.scrollToTop{
+display: inline-block;
+background-color: #FF9800;
+width: 50px;
+height: 50px;
+padding-top: 10px;
+text-align: center;
+border-radius: 4px;
+position: fixed;
+bottom: 30px;
+right: 30px;
+transition: background-color .3s, opacity .5s, visibility .5s;
+z-index: 1000;
+text-decoration: none;
+}
+.scrollToTop:hover{
+cursor: pointer;
+background-color: rgb(182, 180, 180);
+} 
+
