@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Word Counter</title>
+</head>
+
+<body>
+
+    <h1>Word Counter</h1>
+
+    <form name="form_main">
+        <fieldset>
+            <legend>Counter</legend>
+            <label for="text">Text:</label> <br>
+            <textarea name="text" id="text" oninput="countText()"></textarea><br>
+            <label for="characters">Character: </label><span id="characters"></span><br>
+            <label for="words">Words: </label><span id="words"></span><br>
+            <label for="rows">Lines: </label><span id="rows"></span><br>
+        </fieldset>
+    </form>
+    <style>
+        textarea {
+            width: 360px;
+            height: 120px;
+        }
+    </style>
+</body>
+<script src="script.js"></script>
+</html>
