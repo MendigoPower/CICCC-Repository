@@ -90,7 +90,7 @@ var action = 'click';
 var speed = "100";
 
 
-/* $(document).ready(function(){
+$(document).ready(function(){
 
 // Question handler
   $('li.q').on(action, function(){
