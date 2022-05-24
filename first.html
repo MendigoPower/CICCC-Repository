@@ -1,34 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200&family=Saira+Semi+Condensed:wght@100&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Shizuru&display=swap" rel="stylesheet">
-    <script>
-
-    </script>
-    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined"
+    rel="stylesheet">
+    <link rel="icon" href="./twitter-brands.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Home - Twitter</title>
 </head>
-
 <body>
-    <script>
-        function contar() {
-            var texto = document.ex01.campo.value;
-            var quantVet = texto.split(' ').length;
-
-            document.getElementById('alvo').innerHTML = quantVet;
-        }
-    </script>
+    <header>
+        <div class="nav-links">
+            <a href="">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="">
+                <i class="fa-solid fa-house"></i>
+                <span>Home</span>
+            </a>
+            <a href="">
+                <i class="fa-solid fa-hashtag"></i>
+                <span>Explore</span>
+            </a>
+            <a href="">
+                <i class="fa-regular fa-bell"></i>
+                <span>Notifications</span>
+            </a>
+            <a href="">
+                <i class="fa-regular fa-envelope"></i>
+                <span>Messages</span>
+            </a>
+            <a href="">
+                <i class="fa-regular fa-bookmark"></i>
+                <span>Bookmarks</span>
+            </a>
+            <a href="">
+                <i class="material-icons-outlined">
+                    sort
+                </i>
+                <span>Lists</span>
+            </a>
+            <a href="">
+                <i class="fa-regular fa-user"></i>
+                <span>Profile</span>
+            </a>
+            <a href="">
+                <i class="material-icons-outlined">
+                    more_horiz
+                </i>
+                <span>More</span>
+            </a>
+            <button class="tweet-button">
+                Tweet
+            </button>
+        </div>
+        <div class="main-account">
+            <a href="">
+            <img class="tweet-img" src="images/main-profile-pic.jfif" alt="">
+            <div class="account-details">
+                <span class="account-name">Yassine Haimouch</span>
+                <span class="account-handle">@YHaimouch</span>
+            </div>
+            <i class="material-icons-outlined">
+                more_horiz
+            </i>
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class="main-flex">
+            <div class="main-feed">
+                <div class="home-bar">
+                    <span>Home</span>
+                    <i class="material-icons-outlined">
+                        auto_awesome
+                    </i>
+                </div>
+                <div class="new-tweet">
+                    <img class="tweet-img" src="images/main-profile-pic.jfif" alt="">
+                    <div class="new-tweet-details">
+                        <input type="text" placeholder="What's happening?">
+                        <div class="new-tweet-actions">
+                            <ul>
+                                <li>
+                                    <i class="material-icons-outlined">image</i>
+                                </li>
+                                <li>
+                                    <i class="material-icons-outlined">gif_box</i>
+                                </li>
+                                <li>
+                                    <i class="material-icons-outlined">poll</i>
+                                </li>
+                                <li>
+                                    <i class="material-icons-outlined">sentiment_satisfied_alt</i>
+                                </li>
+                                <li>
+                                    <i class="material-icons-outlined">event_repeat</i>
+                                </li>
+                                <li>
+                                    <i class="material-icons-outlined">place</i>
+                                </li>
+                            </ul>
+                            <button class="tweet-button">Tweet</button>
+                        </div>
+                    </div>
+                </div>
 </body>
-
 </html>
